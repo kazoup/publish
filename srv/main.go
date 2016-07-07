@@ -7,6 +7,7 @@ import (
 	publish "github.com/kazoup/publish/srv/proto/publish"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/broker"
+	_ "github.com/micro/go-plugins/broker/nats"
 )
 
 func main() {

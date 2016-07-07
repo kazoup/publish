@@ -15,14 +15,13 @@ Publish API  with fqdn go.micro.api.publish
 $ go run srv/main.go
 ```
 
-### Run API manually
+### Run with NATS
+
+You will need to run gnatsd separately 
 
 ```
-$ go run api/main.go
+go run srv/main.go --broker=nats --broker_address=127.0.0.1:4222
 ```
-
-
-
 
 
 
